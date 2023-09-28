@@ -1,0 +1,1 @@
+print(f"10 multiplied by 5 is equal to 50.")

@@ -1,0 +1,8 @@
+print("what is the largest plant in the solar system?")
+print()
+print("a)lion")
+print("b)kiten")
+print("c)cheetah")
+print("d)leopard")
+print()
+print("correct answer:d")
