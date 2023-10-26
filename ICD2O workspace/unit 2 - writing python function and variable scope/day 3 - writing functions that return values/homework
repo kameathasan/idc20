@@ -1,0 +1,39 @@
+#HW1
+def calculate_circle_area(radius):
+    import math
+    print(f"the area of this circle is: {math.pi*radius**2}")
+
+calculate_circle_area(5)
+
+#HW2
+def area_of_rectangle(length, width):
+    area = length*width
+    print(f"the area is {area:.2f} square units")
+
+
+#HW3
+def calculate_cylinder_volume(radius, height):
+    import math
+    
+    print(f"the volume of this cylinder is: {math.pi*radius**2*height}")
+
+calculate_cylinder_volume(8,7)
+
+#HW4
+def say_hello(name):
+    print(f"hello {name}, nice to meet you!")
+
+say_hello("kamea thasan")
+
+#HW5
+def calculate_bmi(weight, height):
+    print(f"your BMI is {weight/height:.2f}")
+
+calculate_bmi(39.4625, 1.5240)
+
+#HW6
+def format_sales(name, quantity, price):
+    print(f"You purchased {quantity} {name} for a total of ${price}")
+    
+format_sales("dev", 3, 30)
+    
